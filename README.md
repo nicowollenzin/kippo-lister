@@ -22,3 +22,10 @@ after that change the URL to Ajaxterm-Kippo in
 ```
 views/index.erb
 ```
+
+To start the listener type
+```
+ruby listener.rb
+```
+
+and open $YOUR_IP$:4567/list
