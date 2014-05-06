@@ -1,0 +1,10 @@
+<html>
+<body>
+<h3>available Sessions</h3>
+<ul>
+<% for i in @test do %>
+  <li><a href="http://213.133.103.101/?l=<%= i %>"><%= i[0..-5] %></a></li>
+<% end %>
+</ul>
+</body>
+</html>
